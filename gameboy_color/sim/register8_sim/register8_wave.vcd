@@ -1,0 +1,118 @@
+$date
+	Fri Oct 16 20:32:02 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module register8_tb $end
+$var wire 8 ! w_outdata_tb [7:0] $end
+$var reg 1 " r_clk_tb $end
+$var reg 1 # r_enload_tb $end
+$var reg 8 $ r_indata_tb [7:0] $end
+$var reg 1 % r_reset_tb $end
+$scope module UUT $end
+$var wire 1 " i_clk $end
+$var wire 8 & i_data [7:0] $end
+$var wire 1 # i_enload $end
+$var wire 1 % i_reset $end
+$var reg 8 ' o_data [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b0 &
+1%
+b0 $
+0#
+0"
+bx !
+$end
+#5000
+b0 !
+b0 '
+1"
+#10000
+0"
+#15000
+1"
+#20000
+0"
+#25000
+1"
+#30000
+0"
+#35000
+1"
+#40000
+0"
+b1000010 $
+b1000010 &
+1#
+0%
+#45000
+b1000010 !
+b1000010 '
+1"
+#50000
+0"
+#55000
+1"
+#60000
+0"
+#65000
+1"
+#70000
+0"
+#75000
+1"
+#80000
+0"
+b10011001 $
+b10011001 &
+0#
+#85000
+1"
+#90000
+0"
+#95000
+1"
+#100000
+0"
+#105000
+1"
+#110000
+0"
+#115000
+1"
+#120000
+0"
+b11111111 $
+b11111111 &
+1#
+1%
+#125000
+b0 !
+b0 '
+1"
+#130000
+0"
+#135000
+1"
+#140000
+0"
+#145000
+1"
+#150000
+0"
+#155000
+1"
+#160000
+0"

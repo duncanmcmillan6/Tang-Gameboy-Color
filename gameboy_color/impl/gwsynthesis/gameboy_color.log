@@ -1,0 +1,12 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v'
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v'
+Compiling module 'register8_tb'("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":3)
+WARN  (EX3858) : System task 'dumpfile' is ignored for synthesis("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":20)
+WARN  (EX3858) : System task 'dumpvars' is ignored for synthesis("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":28)
+ERROR (EX3718) : Loop count limit of 2000 was exceeded, forever loop never breaks("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":29)
+WARN  (EX3780) : Using initial value of 'r_clk_tb' since it is never assigned("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":30)
+Module 'register8_tb' remains a black box due to errors in its contents("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":3)
+GowinSynthesis finish

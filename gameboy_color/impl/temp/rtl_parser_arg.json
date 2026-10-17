@@ -4,6 +4,10 @@
   {
    "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

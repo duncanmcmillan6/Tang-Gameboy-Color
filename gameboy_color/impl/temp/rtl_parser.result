@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
+  "InstLine" : 1,
+  "InstName" : "eightbit_reg",
+  "ModuleFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "eightbit_reg"
+ }
+]
