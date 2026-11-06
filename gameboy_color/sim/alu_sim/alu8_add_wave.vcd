@@ -1,0 +1,163 @@
+$date
+	Fri Nov  6 14:50:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu8_tb $end
+$var wire 8 ! w_outresult [7:0] $end
+$var wire 4 " w_outflags [3:0] $end
+$var reg 8 # r_a [7:0] $end
+$var reg 8 $ r_b [7:0] $end
+$var reg 3 % r_bit_index [2:0] $end
+$var reg 4 & r_flags [3:0] $end
+$var reg 5 ' r_operation [4:0] $end
+$scope module UUT $end
+$var wire 8 ( i_a [7:0] $end
+$var wire 8 ) i_b [7:0] $end
+$var wire 3 * i_bit_index [2:0] $end
+$var wire 4 + i_flags [3:0] $end
+$var wire 5 , i_operation [4:0] $end
+$var parameter 5 - ALU_ADC $end
+$var parameter 5 . ALU_ADD $end
+$var parameter 5 / ALU_AND $end
+$var parameter 5 0 ALU_BIT $end
+$var parameter 5 1 ALU_CCF $end
+$var parameter 5 2 ALU_CP $end
+$var parameter 5 3 ALU_CPL $end
+$var parameter 5 4 ALU_DAA $end
+$var parameter 5 5 ALU_DEC $end
+$var parameter 5 6 ALU_INC $end
+$var parameter 5 7 ALU_OR $end
+$var parameter 5 8 ALU_RES $end
+$var parameter 5 9 ALU_RL $end
+$var parameter 5 : ALU_RLA $end
+$var parameter 5 ; ALU_RLC $end
+$var parameter 5 < ALU_RLCA $end
+$var parameter 5 = ALU_RR $end
+$var parameter 5 > ALU_RRA $end
+$var parameter 5 ? ALU_RRC $end
+$var parameter 5 @ ALU_RRCA $end
+$var parameter 5 A ALU_SBC $end
+$var parameter 5 B ALU_SCF $end
+$var parameter 5 C ALU_SET $end
+$var parameter 5 D ALU_SLA $end
+$var parameter 5 E ALU_SRA $end
+$var parameter 5 F ALU_SRL $end
+$var parameter 5 G ALU_SUB $end
+$var parameter 5 H ALU_SWAP $end
+$var parameter 5 I ALU_XOR $end
+$var reg 4 J o_flags [3:0] $end
+$var reg 8 K o_result [7:0] $end
+$var reg 5 L r_half_sum [4:0] $end
+$var reg 9 M r_sum [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1001 I
+b10101 H
+b10 G
+b10100 F
+b10011 E
+b10010 D
+b10111 C
+b11011 B
+b11 A
+b10000 @
+b1100 ?
+b10001 >
+b1101 =
+b1110 <
+b1010 ;
+b1111 :
+b1011 9
+b11000 8
+b1000 7
+b101 6
+b110 5
+b11001 4
+b11010 3
+b100 2
+b11100 1
+b10110 0
+b111 /
+b0 .
+b1 -
+$end
+#0
+$dumpvars
+b1000 M
+b1000 L
+b1000 K
+b0 J
+b0 ,
+b0 +
+b0 *
+b11 )
+b101 (
+b0 '
+b0 &
+b0 %
+b11 $
+b101 #
+b0 "
+b1000 !
+$end
+#41000
+b10 "
+b10 J
+b10000 L
+b10000 M
+b10000 !
+b10000 K
+b1 $
+b1 )
+b1111 #
+b1111 (
+#82000
+b10000 L
+b100000000 M
+b1011 "
+b1011 J
+b0 !
+b0 K
+b11111111 #
+b11111111 (
+#123000
+b0 L
+b100000000 M
+b1001 "
+b1001 J
+b0 !
+b0 K
+b10000000 $
+b10000000 )
+b10000000 #
+b10000000 (
+#164000
+b0 M
+b1000 "
+b1000 J
+b0 $
+b0 )
+b0 #
+b0 (
+#205000
+b10 L
+b10 M
+b0 "
+b0 J
+b10 !
+b10 K
+b1111 &
+b1111 +
+b1 $
+b1 )
+b1 #
+b1 (
+#246000

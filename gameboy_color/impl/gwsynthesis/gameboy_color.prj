@@ -4,8 +4,12 @@
     <Version>beta</Version>
     <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
     <FileList>
-        <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v" type="verilog"/>
+        <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/alu_sim/alu_tb.v" type="verilog"/>
+        <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/counter16_sim/counter16_tb.v" type="verilog"/>
         <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v" type="verilog"/>
+        <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/alu.v" type="verilog"/>
+        <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/counter16.v" type="verilog"/>
+        <File path="/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

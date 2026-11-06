@@ -1,7 +1,11 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v'
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/alu_sim/alu_tb.v'
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/counter16_sim/counter16_tb.v'
 Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v'
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/alu.v'
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/counter16.v'
+Analyzing Verilog file '/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v'
 Compiling module 'register8_tb'("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":3)
 WARN  (EX3858) : System task 'dumpfile' is ignored for synthesis("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":20)
 WARN  (EX3858) : System task 'dumpvars' is ignored for synthesis("/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v":21)

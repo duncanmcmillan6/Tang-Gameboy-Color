@@ -2,11 +2,27 @@
  "Device" : "GW2A-18C",
  "Files" : [
   {
-   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
+   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/alu_sim/alu_tb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/counter16_sim/counter16_tb.v",
    "Type" : "verilog"
   },
   {
    "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/register8_sim/register8_tb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/alu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/counter16.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
    "Type" : "verilog"
   }
  ],

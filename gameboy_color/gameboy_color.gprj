@@ -5,7 +5,11 @@
     <Version>5</Version>
     <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
     <FileList>
+        <File path="sim/alu_sim/alu_tb.v" type="file.verilog" enable="1"/>
+        <File path="sim/counter16_sim/counter16_tb.v" type="file.verilog" enable="1"/>
         <File path="sim/register8_sim/register8_tb.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/alu.v" type="file.verilog" enable="1"/>
+        <File path="src/cpu/counter16.v" type="file.verilog" enable="1"/>
         <File path="src/cpu/register8.v" type="file.verilog" enable="1"/>
     </FileList>
 </Project>

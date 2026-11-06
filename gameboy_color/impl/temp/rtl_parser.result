@@ -1,10 +1,20 @@
 [
  {
-  "InstFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
-  "InstLine" : 1,
-  "InstName" : "eightbit_reg",
-  "ModuleFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/register8.v",
-  "ModuleLine" : 1,
-  "ModuleName" : "eightbit_reg"
+  "InstFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/alu_sim/alu_tb.v",
+  "InstLine" : 3,
+  "InstName" : "alu8_tb",
+  "ModuleFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/alu_sim/alu_tb.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "alu8_tb",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/sim/alu_sim/alu_tb.v",
+    "InstLine" : 14,
+    "InstName" : "UUT",
+    "ModuleFile" : "/home/duncanmcmillan/Repos/FPGA Projects/Tang-Gameboy-Color/gameboy_color/src/cpu/alu.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "alu8"
+   }
+  ]
  }
 ]
